@@ -58,3 +58,32 @@ A test script that:
 ### 3. Documentation
 
 Instructions for using the client library.
+
+
+### Functionalities Added
+- **Logging** - Added logging to the server and client to track the status of the translation process.
+- **Configurable Delay and Error Rate** - Added configuration options to control the delay and error rate of the translation process.
+
+
+### Additional Features TO Add
+- **Retry Mechanism** - Implement a retry mechanism in the client library to handle transient errors.
+- **Web Interface** - Create a simple web interface to visualize the translation process status.
+
+#### Specifics
+- Remove Job From Server after certain time frame
+- Add a way to cancel a job
+- Add a way to pause a job
+- Add a way to resume a job
+- Add a way to get the progress of a job
+- Add a way to get the estimated time remaining for a job
+- Add a way to get the estimated time of completion for a job
+- Add a way to add priorities to jobs
+- On job error, have a way to either choose restart on error or stop on error
+
+
+
+My Iterations
+- First built basic implementation
+- Then expanded logging
+- Then at the same time, built out multiple job support (rudimentary) with job ids and also shell scripts to spin up servers, found some more bugs. Also added some more configurability here.
+- Started to work on mmultiple jobs at once properly, debating between multipl jobs running at once on a server vs queue structure. went with queue structure by server, began planning mroe for improved client support implemented multithreading to allow multiple jobs properly, fixes shell script bugs
