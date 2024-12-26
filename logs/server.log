@@ -1,0 +1,10 @@
+ * Serving Flask app 'main'
+ * Debug mode: on
+2024-12-26 18:40:14,975 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-12-26 18:40:14,975 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-26 18:40:14,975 [INFO]  * Restarting with stat
+2024-12-26 18:40:15,106 [WARNING]  * Debugger is active!
+2024-12-26 18:40:15,112 [INFO]  * Debugger PIN: 142-580-074
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
